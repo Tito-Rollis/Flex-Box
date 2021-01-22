@@ -7,8 +7,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h4.logo {
+    color: rgb(107, 183, 245);
+}
+
 nav {
     display: flex;
+    background-color: rgb(83, 83, 83);
     justify-content: space-around;
     padding: 25px;
 }
@@ -16,11 +21,21 @@ nav {
 nav ul {
     max-width: 300px;
     display: flex;
+    color: white;
     justify-content: space-between;
     list-style: none;
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 45px;
+    transition: all 0.2s;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    color: rgb(107, 183, 245);
+
 }
